@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Triva Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header id="head">
+		<div class="container">
+			<h1>Exercise Trivia</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<p class="rules">There are 4 questions, you have 50 seconds to answer all 5 questions.</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!--timer -->
+			<div id="show-number"></div>
+			<!-- q1 -->
+			                        
+			<p class="question">1.To increase your strength, What what is the optimal rep range?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">8-12</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">2-4</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">4-6</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">10</label><br/>
+			</ul>
+                        <!-- q2 -->
+			<p class="question">2. What is the maximum heart rate for a 20 year old man?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">156</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">200</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">130</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">186</label><br/>
+			</ul>
+			<!-- q3 -->
+			<p class="question">3. Which cardio method sucks the most</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Hills</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Tredmil</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Sprints</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Stairs</label><br/>
+			</ul>
+			<!-- q4 -->
+			<p class="question">4. What is the main muscle building nutrient?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Air</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Fat</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Protien</label><br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Water</label><br/>
+			</ul>
+			<!-- q5 -->
+			<p class="question">4. What is pound for pound the strongest muscle in the human body</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Lat</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Bicep</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Tongue</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Glute</label><br/>
+			</ul>
+			
+			<button type="button" id="submit">Submit Final Answers</button>
+			<button type="button" id="restart">Play Again</button>
+		</section>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
